@@ -7,7 +7,7 @@
    
    <body>
     <header>
-        <h1>Welcome to BurgerOnline</h1>
+        <h1>Welcome to BurgerTown Bredäng</h1>
     </header>
     <main>
     <section>
@@ -15,21 +15,102 @@
         order our burger:
     </h2>
     <p>
-        we serve several burger including norrland burger, småland burger, stockholm burger and göteborg burger
+        we serve several burger including Memphis burger&copy;, Christmass burger&copy; and Sauce burger&copy;
     </p>
     </section>
+
+    <div style="display: inline-block;">
+    <img src="https://th.bing.com/th/id/OIG.zODn.MnwFZ1_DQvvQ.dq?pid=ImgGn" style="width: 200px;">
+    <h3>memphis burger&copy;</h3>
+    <ul>
+        <li>contains gluten</li>
+        <li>contains lactose</li>
+        <li>grainfed beef</li>
+    </ul>
+    </div>
+    <div style="display: inline-block;">
+        <img src="https://th.bing.com/th/id/OIG.QE4opQqz2gSDDNZ5ObNg?pid=ImgGn" style="width: 200px;">
+        <h3>Christmass burger&copy;</h3>
+        <ul>
+            <li>contains no gluten</li>
+            <li>contains lactose</li>
+            <li>for the season</li>
+        </ul>
+    </div>
+    <div style="display: inline-block;">
+        <img src="https://th.bing.com/th/id/OIG.9pyhL2gGg_79jKbgjPvs?pid=ImgGn" alt="" style="width: 200px;">
+        <h3>sauce burger&copy;</h3>
+        <ul>
+            <li>Lots of sauce</li>
+            <li>Lactosefree</li>
+            <li>glutenfree</li>
+        </ul>
+    </div>
     <section>
         <h2> 
-            info about our resturant:
+            customer info:
         </h2>
         <p> 
-            please provide to us your delivery address and your code to the house we take swish so you will need to provide phone number aswell
+            please provide your full name and address for delivery, we will also need your gender and your prefered payment method
         </p>
-        <a href="checkout.html"><img src="https://i.ytimg.com/vi/lUxmuq0lEoE/maxresdefault.jpg"></a>
-        <p>hejejhej</p>
+        
     </section>
+    <section id="contact">
+        <form>
+            <p>
+                <label for="name">name</label><br>
+                <input type="text" id="name" name="fn" required="required" placeholder="Full legal name">
+            </p>
+            
+            <p>
+                <label for="email">email</label><br>
+                <input type="email" id="email" name="em" required="required" placeholder="E-mail address">
+            </p>
+            <p>
+                <label for="hosenumber">Housenumber</label><br>
+                <input type="number" id="hosenumber" name="hn" required="required" placeholder="Housenumber">
+            </p>
+            <p>
+                <label for="street">streetname</label><br>
+                <input type="text" id="street" name="st" required="required" placeholder="streetname">
+            </p>
+            <p>
+                <label for="options">Payment procedure</label><br>
+                <select name="rcp" id="options">
+                    <option>Swish bank</option>
+                    <option>wall street bank</option>
+                    <option>kiruna bank</option>
+                    <option selected="selected">swedbank</option>
+                </select>
+            </p>
+            <p>
+                <label for="gender">Male</label><br>
+                <input type="radio" id="gender3" name="gender" checked="checked"> 
+            </p>
+            <p>
+                <label for="gender">Female</label><br>
+                <input type="radio" id="gender2"  name="gender"> 
+            </p>
+            <p>
+                <label for="gender">Does not wish to relay</label><br>
+                <input type="radio" id="gender1" name="gender"> 
+            </p>
+            
+            
+        </form>
+    </section>
+    <button type="submit" value="place order">
+        <img src="https://i.pinimg.com/originals/a5/bc/dd/a5bcdd47a1cded2da258ace8bbe7f1ec.jpg" alt=":(" style="width: 50px; height: 20px;">
+        place order
+    </button>
+    <br>
+    <br>
+    <hr>
     <footer>
-        &u+000A9; copyright 2023
+        <div style="display: inline-block;"><p>&copy; copyright 2023</p></div>
+        <div style="display: inline-block;"><p>öppettider <br> 07:00-06:00</p></div>
+        
+        
     </footer>
     </main>
    </body>
