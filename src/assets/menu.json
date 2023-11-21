@@ -1,0 +1,27 @@
+[
+    {
+        "name":"goodburger",
+        "Kcal":850,
+        "lact":true,
+        "glut":false,
+        "urlimg":"https://www.burgerdudes.se/wp-content/uploads/2021/04/american_steakhouse_burgers_mc_original_dec22_med.jpg",
+        "desc":"good"
+
+    },
+    {
+        "name":"chiliburger",
+        "Kcal":850,
+        "lact":false,
+        "glut":true,
+        "urlimg":"https://th.bing.com/th/id/OIG.zODn.MnwFZ1_DQvvQ.dq?pid=ImgGn",
+        "desc":"spicy"
+    },
+    {
+        "name":"ångströmburger",
+        "Kcal":850,
+        "lact":true,
+        "glut":true,
+        "urlimg":"https://th.bing.com/th/id/OIG.cYiMK7ujyq56SivxZtQK?pid=ImgGn",
+        "desc":"metallic"
+    }
+]

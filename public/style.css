@@ -1,0 +1,59 @@
+#hi{
+    opacity: 0.75;
+    width: 100%;
+    height: auto;
+}
+header{
+    margin-left: 25px;
+    height: 150px;
+    overflow: hidden;
+}
+.wrapper{
+    display: grid;
+    /*grid-template-columns: 100px 100px 100px;*/
+    grid-template: 100% / 1fr 1fr 1fr;
+
+    grid-gap: 200px
+}
+
+header h1{
+    position: absolute;
+    margin-top: -1400px;
+    margin-left: 35px;
+}
+body {
+    font-size: 3vh;
+    font-family: arial;
+    
+ }
+ section{
+    margin-left: 0;
+    margin: 0px 0px 0px 25px;
+    border-style: dashed;
+ }
+ section p{
+    padding-left: 10px;
+ }
+ .nut_info{
+    font-weight: bold;
+ }
+ #burger_info{
+    color: #ffffff;
+    background-color: #000000;
+    border-color: #ffffff;
+    
+ }
+ #contact{
+    border-color: #000000;
+ }
+ button:hover {
+    background-color: aqua;
+    cursor: pointer;
+ }
+ button{
+    margin: 25px 0px 0px 0px;
+ }
+ div{
+    margin: 10px;
+    padding: 25px;
+ }
