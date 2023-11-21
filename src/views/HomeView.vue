@@ -242,7 +242,7 @@ body {
     cursor: pointer;
  }
  button{
-    margin: 25px 0px 0px 0px;
+    margin: 25px 0px 0px 50px;
  }
  div{
     margin: 10px;

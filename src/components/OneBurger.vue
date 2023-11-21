@@ -56,7 +56,7 @@
   height: 50%;
  }
  div{
-  background-color: blanchedalmond;
+  background-color: blue;
  }
   </style>
   
