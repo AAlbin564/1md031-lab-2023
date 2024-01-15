@@ -52,7 +52,7 @@
     font-weight: bold;
  }
  img{
-  width: 70%;
+  width: 85%;
   height: 50%;
  }
  div{

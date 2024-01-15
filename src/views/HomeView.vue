@@ -181,7 +181,7 @@ export default {
     height: 1030px;
     width: 1871px;
     background-size: cover;
-    background: url("C:\lab_1\1md031-lab-2023\public\img\polacks.jpg");
+    background: url('../../public/img/polacks.jpg');
     cursor: crosshair;
     
   }
